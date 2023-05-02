@@ -1,4 +1,4 @@
-// FILE: ActivitesController.cs
+// FILE: ActivitiesController.cs
 // NAME: John Payne
 // COURSE: Udemy .NET Basics
 // This is the API Controller for the activities portion of the application
@@ -10,14 +10,14 @@ using Persistence;
 
 namespace API.Controllers
 {
-    public class ActivitesController : BaseApiController
+    public class ActivitiesController : BaseApiController
     {
         //// Dependency Injection
         ///
         
         private readonly DataContext _context;
 
-        public ActivitesController(DataContext context)
+        public ActivitiesController(DataContext context)
         {
             _context = context;
         }
